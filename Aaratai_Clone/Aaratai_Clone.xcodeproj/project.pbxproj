@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		125B81E0290253A700604E9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B81DF290253A700604E9B /* AppDelegate.swift */; };
+		125B81E2290253A700604E9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B81E1290253A700604E9B /* SceneDelegate.swift */; };
+		125B81E4290253A700604E9B /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B81E3290253A700604E9B /* ChatsViewController.swift */; };
+		125B81E7290253A700604E9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 125B81E5290253A700604E9B /* Main.storyboard */; };
+		125B81EA290253A700604E9B /* Aaratai_Clone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 125B81E8290253A700604E9B /* Aaratai_Clone.xcdatamodeld */; };
+		125B81EC290253A800604E9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 125B81EB290253A800604E9B /* Assets.xcassets */; };
+		125B81EF290253A800604E9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 125B81ED290253A800604E9B /* LaunchScreen.storyboard */; };
+		125B81F829025CD500604E9B /* ChatsIntractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B81F729025CD500604E9B /* ChatsIntractor.swift */; };
+		125B81FA29025EEB00604E9B /* ChatsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B81F929025EEB00604E9B /* ChatsPresenter.swift */; };
+		125B820429026BD800604E9B /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B820229026BD800604E9B /* ChatTableViewCell.swift */; };
+		125B820529026BD800604E9B /* ChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 125B820329026BD800604E9B /* ChatTableViewCell.xib */; };
+		125B820729027F8300604E9B /* ChatsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B820629027F8300604E9B /* ChatsModel.swift */; };
+		235A21613511B08EB5205410 /* Pods_Aaratai_Clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D0135156B796F384ABF3D2 /* Pods_Aaratai_Clone.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		125B81DC290253A700604E9B /* Aaratai_Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aaratai_Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		125B81DF290253A700604E9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		125B81E1290253A700604E9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		125B81E3290253A700604E9B /* ChatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
+		125B81E6290253A700604E9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		125B81E9290253A700604E9B /* Aaratai_Clone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Aaratai_Clone.xcdatamodel; sourceTree = "<group>"; };
+		125B81EB290253A800604E9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		125B81EE290253A800604E9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		125B81F0290253A800604E9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		125B81F729025CD500604E9B /* ChatsIntractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsIntractor.swift; sourceTree = "<group>"; };
+		125B81F929025EEB00604E9B /* ChatsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsPresenter.swift; sourceTree = "<group>"; };
+		125B820229026BD800604E9B /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		125B820329026BD800604E9B /* ChatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatTableViewCell.xib; sourceTree = "<group>"; };
+		125B820629027F8300604E9B /* ChatsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsModel.swift; sourceTree = "<group>"; };
+		19DF82C981E3333732315C37 /* Pods-Aaratai_Clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aaratai_Clone.debug.xcconfig"; path = "Target Support Files/Pods-Aaratai_Clone/Pods-Aaratai_Clone.debug.xcconfig"; sourceTree = "<group>"; };
+		64572D62744FE56A9EC331EA /* Pods-Aaratai_Clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aaratai_Clone.release.xcconfig"; path = "Target Support Files/Pods-Aaratai_Clone/Pods-Aaratai_Clone.release.xcconfig"; sourceTree = "<group>"; };
+		F1D0135156B796F384ABF3D2 /* Pods_Aaratai_Clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aaratai_Clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		125B81D9290253A700604E9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235A21613511B08EB5205410 /* Pods_Aaratai_Clone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		125B81D3290253A700604E9B = {
+			isa = PBXGroup;
+			children = (
+				125B81DE290253A700604E9B /* Aaratai_Clone */,
+				125B81DD290253A700604E9B /* Products */,
+				B239E6F4F76C008618E4203E /* Pods */,
+				EB517AE63A0F0DA8A48A4FAD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		125B81DD290253A700604E9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				125B81DC290253A700604E9B /* Aaratai_Clone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		125B81DE290253A700604E9B /* Aaratai_Clone */ = {
+			isa = PBXGroup;
+			children = (
+				125B81F6290253F400604E9B /* Chats */,
+				125B81DF290253A700604E9B /* AppDelegate.swift */,
+				125B81E1290253A700604E9B /* SceneDelegate.swift */,
+				125B81E5290253A700604E9B /* Main.storyboard */,
+				125B81EB290253A800604E9B /* Assets.xcassets */,
+				125B81ED290253A800604E9B /* LaunchScreen.storyboard */,
+				125B81F0290253A800604E9B /* Info.plist */,
+				125B81E8290253A700604E9B /* Aaratai_Clone.xcdatamodeld */,
+			);
+			path = Aaratai_Clone;
+			sourceTree = "<group>";
+		};
+		125B81F6290253F400604E9B /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+				125B81E3290253A700604E9B /* ChatsViewController.swift */,
+				125B81F729025CD500604E9B /* ChatsIntractor.swift */,
+				125B81F929025EEB00604E9B /* ChatsPresenter.swift */,
+				125B81FB29026ADF00604E9B /* Others */,
+				125B820629027F8300604E9B /* ChatsModel.swift */,
+			);
+			name = Chats;
+			sourceTree = "<group>";
+		};
+		125B81FB29026ADF00604E9B /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				125B820229026BD800604E9B /* ChatTableViewCell.swift */,
+				125B820329026BD800604E9B /* ChatTableViewCell.xib */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		B239E6F4F76C008618E4203E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19DF82C981E3333732315C37 /* Pods-Aaratai_Clone.debug.xcconfig */,
+				64572D62744FE56A9EC331EA /* Pods-Aaratai_Clone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EB517AE63A0F0DA8A48A4FAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1D0135156B796F384ABF3D2 /* Pods_Aaratai_Clone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		125B81DB290253A700604E9B /* Aaratai_Clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 125B81F3290253A800604E9B /* Build configuration list for PBXNativeTarget "Aaratai_Clone" */;
+			buildPhases = (
+				03E455B93AD0678BB5E13CE9 /* [CP] Check Pods Manifest.lock */,
+				125B81D8290253A700604E9B /* Sources */,
+				125B81D9290253A700604E9B /* Frameworks */,
+				125B81DA290253A700604E9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aaratai_Clone;
+			productName = Aaratai_Clone;
+			productReference = 125B81DC290253A700604E9B /* Aaratai_Clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		125B81D4290253A700604E9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					125B81DB290253A700604E9B = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 125B81D7290253A700604E9B /* Build configuration list for PBXProject "Aaratai_Clone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 125B81D3290253A700604E9B;
+			productRefGroup = 125B81DD290253A700604E9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				125B81DB290253A700604E9B /* Aaratai_Clone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		125B81DA290253A700604E9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				125B81EF290253A800604E9B /* LaunchScreen.storyboard in Resources */,
+				125B820529026BD800604E9B /* ChatTableViewCell.xib in Resources */,
+				125B81EC290253A800604E9B /* Assets.xcassets in Resources */,
+				125B81E7290253A700604E9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03E455B93AD0678BB5E13CE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aaratai_Clone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		125B81D8290253A700604E9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				125B81FA29025EEB00604E9B /* ChatsPresenter.swift in Sources */,
+				125B81E4290253A700604E9B /* ChatsViewController.swift in Sources */,
+				125B81EA290253A700604E9B /* Aaratai_Clone.xcdatamodeld in Sources */,
+				125B81E0290253A700604E9B /* AppDelegate.swift in Sources */,
+				125B820429026BD800604E9B /* ChatTableViewCell.swift in Sources */,
+				125B81E2290253A700604E9B /* SceneDelegate.swift in Sources */,
+				125B81F829025CD500604E9B /* ChatsIntractor.swift in Sources */,
+				125B820729027F8300604E9B /* ChatsModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		125B81E5290253A700604E9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				125B81E6290253A700604E9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		125B81ED290253A800604E9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				125B81EE290253A800604E9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		125B81F1290253A800604E9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		125B81F2290253A800604E9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		125B81F4290253A800604E9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19DF82C981E3333732315C37 /* Pods-Aaratai_Clone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4U4X47C36;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Aaratai_Clone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ZSGS.Aaratai-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		125B81F5290253A800604E9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64572D62744FE56A9EC331EA /* Pods-Aaratai_Clone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4U4X47C36;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Aaratai_Clone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ZSGS.Aaratai-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		125B81D7290253A700604E9B /* Build configuration list for PBXProject "Aaratai_Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125B81F1290253A800604E9B /* Debug */,
+				125B81F2290253A800604E9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		125B81F3290253A800604E9B /* Build configuration list for PBXNativeTarget "Aaratai_Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125B81F4290253A800604E9B /* Debug */,
+				125B81F5290253A800604E9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		125B81E8290253A700604E9B /* Aaratai_Clone.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				125B81E9290253A700604E9B /* Aaratai_Clone.xcdatamodel */,
+			);
+			currentVersion = 125B81E9290253A700604E9B /* Aaratai_Clone.xcdatamodel */;
+			path = Aaratai_Clone.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 125B81D4290253A700604E9B /* Project object */;
+}

@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		125B82152902935100604E9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B82142902935100604E9B /* AppDelegate.swift */; };
+		125B82172902935100604E9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B82162902935100604E9B /* SceneDelegate.swift */; };
+		125B821C2902935100604E9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 125B821A2902935100604E9B /* Main.storyboard */; };
+		125B821F2902935100604E9B /* Arattai_IOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 125B821D2902935100604E9B /* Arattai_IOS.xcdatamodeld */; };
+		125B82212902935300604E9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 125B82202902935300604E9B /* Assets.xcassets */; };
+		125B82242902935300604E9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 125B82222902935300604E9B /* LaunchScreen.storyboard */; };
+		125B822F290293BB00604E9B /* ChatsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B822C290293AE00604E9B /* ChatsPresenter.swift */; };
+		125B8230290293BB00604E9B /* ChatsIntractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B822D290293B400604E9B /* ChatsIntractor.swift */; };
+		125B8231290293BB00604E9B /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B822E290293BB00604E9B /* ChatsViewController.swift */; };
+		125B8233290293EE00604E9B /* ChatsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B8232290293EE00604E9B /* ChatsModel.swift */; };
+		125B82362902940A00604E9B /* ChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 125B82342902940200604E9B /* ChatTableViewCell.xib */; };
+		125B82372902940A00604E9B /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B82352902940A00604E9B /* ChatTableViewCell.swift */; };
+		125B823D2902B7D900604E9B /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B82392902B7C600604E9B /* MainTabBarViewController.swift */; };
+		125B823E2902B7D900604E9B /* MainTabBarIntractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B823A2902B7CD00604E9B /* MainTabBarIntractor.swift */; };
+		125B823F2902B7D900604E9B /* MainTabBarPresentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B823B2902B7D300604E9B /* MainTabBarPresentor.swift */; };
+		125B82402902B7D900604E9B /* MainTabBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B823C2902B7D900604E9B /* MainTabBarModel.swift */; };
+		125B82442908ECA400604E9B /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B82432908ECA400604E9B /* MessageViewController.swift */; };
+		125B82462908EE5900604E9B /* MessageIntractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B82452908EE5900604E9B /* MessageIntractor.swift */; };
+		12FD881C2908FDBC000E2922 /* MessagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FD881B2908FDBC000E2922 /* MessagePresenter.swift */; };
+		12FD882829091573000E2922 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FD882629091573000E2922 /* MessageTableViewCell.swift */; };
+		12FD882929091573000E2922 /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12FD882729091573000E2922 /* MessageTableViewCell.xib */; };
+		3DA3938ADEE6099870E45A7E /* Pods_Arattai_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF506142BC7E6B1A76EF6C1 /* Pods_Arattai_IOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		125B82112902935100604E9B /* Arattai-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arattai-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		125B82142902935100604E9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		125B82162902935100604E9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		125B821B2902935100604E9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		125B821E2902935100604E9B /* Arattai_IOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Arattai_IOS.xcdatamodel; sourceTree = "<group>"; };
+		125B82202902935300604E9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		125B82232902935300604E9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		125B82252902935300604E9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		125B822C290293AE00604E9B /* ChatsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatsPresenter.swift; sourceTree = "<group>"; };
+		125B822D290293B400604E9B /* ChatsIntractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatsIntractor.swift; sourceTree = "<group>"; };
+		125B822E290293BB00604E9B /* ChatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
+		125B8232290293EE00604E9B /* ChatsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatsModel.swift; sourceTree = "<group>"; };
+		125B82342902940200604E9B /* ChatTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatTableViewCell.xib; sourceTree = "<group>"; };
+		125B82352902940A00604E9B /* ChatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		125B82392902B7C600604E9B /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		125B823A2902B7CD00604E9B /* MainTabBarIntractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarIntractor.swift; sourceTree = "<group>"; };
+		125B823B2902B7D300604E9B /* MainTabBarPresentor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarPresentor.swift; sourceTree = "<group>"; };
+		125B823C2902B7D900604E9B /* MainTabBarModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarModel.swift; sourceTree = "<group>"; };
+		125B82432908ECA400604E9B /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		125B82452908EE5900604E9B /* MessageIntractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageIntractor.swift; sourceTree = "<group>"; };
+		12FD881B2908FDBC000E2922 /* MessagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePresenter.swift; sourceTree = "<group>"; };
+		12FD882629091573000E2922 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		12FD882729091573000E2922 /* MessageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
+		4649A7C5294B46CAAF4FAF4F /* Pods-Arattai-IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arattai-IOS.debug.xcconfig"; path = "Target Support Files/Pods-Arattai-IOS/Pods-Arattai-IOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9DF506142BC7E6B1A76EF6C1 /* Pods_Arattai_IOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arattai_IOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D81B16F8577623D13239DF /* Pods-Arattai-IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arattai-IOS.release.xcconfig"; path = "Target Support Files/Pods-Arattai-IOS/Pods-Arattai-IOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		125B820E2902935100604E9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA3938ADEE6099870E45A7E /* Pods_Arattai_IOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		125B82082902935100604E9B = {
+			isa = PBXGroup;
+			children = (
+				125B82132902935100604E9B /* Arattai-IOS */,
+				125B82122902935100604E9B /* Products */,
+				5AB2ACD3CC1177CA9C030FAB /* Pods */,
+				E2CAE507273230625E5F508C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		125B82122902935100604E9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				125B82112902935100604E9B /* Arattai-IOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		125B82132902935100604E9B /* Arattai-IOS */ = {
+			isa = PBXGroup;
+			children = (
+				125B82422908EC0500604E9B /* Message */,
+				125B822B2902939400604E9B /* Chats */,
+				125B82412902B81C00604E9B /* MainTabBar */,
+				125B82142902935100604E9B /* AppDelegate.swift */,
+				125B82162902935100604E9B /* SceneDelegate.swift */,
+				125B821A2902935100604E9B /* Main.storyboard */,
+				125B82202902935300604E9B /* Assets.xcassets */,
+				125B82222902935300604E9B /* LaunchScreen.storyboard */,
+				125B82252902935300604E9B /* Info.plist */,
+				125B821D2902935100604E9B /* Arattai_IOS.xcdatamodeld */,
+			);
+			path = "Arattai-IOS";
+			sourceTree = "<group>";
+		};
+		125B822B2902939400604E9B /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+				125B822E290293BB00604E9B /* ChatsViewController.swift */,
+				125B822D290293B400604E9B /* ChatsIntractor.swift */,
+				125B822C290293AE00604E9B /* ChatsPresenter.swift */,
+				125B8232290293EE00604E9B /* ChatsModel.swift */,
+				125B82382902947B00604E9B /* Other */,
+			);
+			name = Chats;
+			sourceTree = "<group>";
+		};
+		125B82382902947B00604E9B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				125B82352902940A00604E9B /* ChatTableViewCell.swift */,
+				125B82342902940200604E9B /* ChatTableViewCell.xib */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		125B82412902B81C00604E9B /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				125B82392902B7C600604E9B /* MainTabBarViewController.swift */,
+				125B823A2902B7CD00604E9B /* MainTabBarIntractor.swift */,
+				125B823C2902B7D900604E9B /* MainTabBarModel.swift */,
+				125B823B2902B7D300604E9B /* MainTabBarPresentor.swift */,
+			);
+			name = MainTabBar;
+			sourceTree = "<group>";
+		};
+		125B82422908EC0500604E9B /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				125B82432908ECA400604E9B /* MessageViewController.swift */,
+				125B82452908EE5900604E9B /* MessageIntractor.swift */,
+				12FD881B2908FDBC000E2922 /* MessagePresenter.swift */,
+				12FD882329091540000E2922 /* Others */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		12FD882329091540000E2922 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				12FD882629091573000E2922 /* MessageTableViewCell.swift */,
+				12FD882729091573000E2922 /* MessageTableViewCell.xib */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		5AB2ACD3CC1177CA9C030FAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4649A7C5294B46CAAF4FAF4F /* Pods-Arattai-IOS.debug.xcconfig */,
+				D9D81B16F8577623D13239DF /* Pods-Arattai-IOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E2CAE507273230625E5F508C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DF506142BC7E6B1A76EF6C1 /* Pods_Arattai_IOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		125B82102902935100604E9B /* Arattai-IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 125B82282902935300604E9B /* Build configuration list for PBXNativeTarget "Arattai-IOS" */;
+			buildPhases = (
+				85275BAAFE04D503EF92F1E4 /* [CP] Check Pods Manifest.lock */,
+				125B820D2902935100604E9B /* Sources */,
+				125B820E2902935100604E9B /* Frameworks */,
+				125B820F2902935100604E9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Arattai-IOS";
+			productName = "Arattai-IOS";
+			productReference = 125B82112902935100604E9B /* Arattai-IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		125B82092902935100604E9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					125B82102902935100604E9B = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 125B820C2902935100604E9B /* Build configuration list for PBXProject "Arattai-IOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 125B82082902935100604E9B;
+			productRefGroup = 125B82122902935100604E9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				125B82102902935100604E9B /* Arattai-IOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		125B820F2902935100604E9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				125B82242902935300604E9B /* LaunchScreen.storyboard in Resources */,
+				125B82362902940A00604E9B /* ChatTableViewCell.xib in Resources */,
+				12FD882929091573000E2922 /* MessageTableViewCell.xib in Resources */,
+				125B82212902935300604E9B /* Assets.xcassets in Resources */,
+				125B821C2902935100604E9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85275BAAFE04D503EF92F1E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Arattai-IOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		125B820D2902935100604E9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				125B82462908EE5900604E9B /* MessageIntractor.swift in Sources */,
+				125B821F2902935100604E9B /* Arattai_IOS.xcdatamodeld in Sources */,
+				12FD881C2908FDBC000E2922 /* MessagePresenter.swift in Sources */,
+				125B82442908ECA400604E9B /* MessageViewController.swift in Sources */,
+				125B82152902935100604E9B /* AppDelegate.swift in Sources */,
+				125B822F290293BB00604E9B /* ChatsPresenter.swift in Sources */,
+				125B823D2902B7D900604E9B /* MainTabBarViewController.swift in Sources */,
+				125B823F2902B7D900604E9B /* MainTabBarPresentor.swift in Sources */,
+				125B8233290293EE00604E9B /* ChatsModel.swift in Sources */,
+				125B82402902B7D900604E9B /* MainTabBarModel.swift in Sources */,
+				125B82172902935100604E9B /* SceneDelegate.swift in Sources */,
+				125B82372902940A00604E9B /* ChatTableViewCell.swift in Sources */,
+				125B8231290293BB00604E9B /* ChatsViewController.swift in Sources */,
+				12FD882829091573000E2922 /* MessageTableViewCell.swift in Sources */,
+				125B8230290293BB00604E9B /* ChatsIntractor.swift in Sources */,
+				125B823E2902B7D900604E9B /* MainTabBarIntractor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		125B821A2902935100604E9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				125B821B2902935100604E9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		125B82222902935300604E9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				125B82232902935300604E9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		125B82262902935300604E9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		125B82272902935300604E9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		125B82292902935300604E9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4649A7C5294B46CAAF4FAF4F /* Pods-Arattai-IOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4U4X47C36;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Arattai-IOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ZSGS.Arattai-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		125B822A2902935300604E9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9D81B16F8577623D13239DF /* Pods-Arattai-IOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4U4X47C36;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Arattai-IOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ZSGS.Arattai-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		125B820C2902935100604E9B /* Build configuration list for PBXProject "Arattai-IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125B82262902935300604E9B /* Debug */,
+				125B82272902935300604E9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		125B82282902935300604E9B /* Build configuration list for PBXNativeTarget "Arattai-IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125B82292902935300604E9B /* Debug */,
+				125B822A2902935300604E9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		125B821D2902935100604E9B /* Arattai_IOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				125B821E2902935100604E9B /* Arattai_IOS.xcdatamodel */,
+			);
+			currentVersion = 125B821E2902935100604E9B /* Arattai_IOS.xcdatamodel */;
+			path = Arattai_IOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 125B82092902935100604E9B /* Project object */;
+}

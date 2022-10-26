@@ -1,0 +1,6 @@
+framework module Pods_aaratai {
+  umbrella header "Pods-aaratai-umbrella.h"
+
+  export *
+  module * { export * }
+}

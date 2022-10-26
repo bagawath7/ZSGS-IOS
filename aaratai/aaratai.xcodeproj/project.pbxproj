@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1221534428FD835A00C64199 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1221534328FD835A00C64199 /* SettingViewController.swift */; };
+		1221534728FD83A300C64199 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1221534528FD83A300C64199 /* SettingTableViewCell.swift */; };
+		1221534828FD83A300C64199 /* SettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1221534628FD83A300C64199 /* SettingTableViewCell.xib */; };
+		12285A9028FFEDD2007F845C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12285A8F28FFEDD2007F845C /* Assets.xcassets */; };
+		1256B99B28FE6B8800599FD2 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1256B99A28FE6B8800599FD2 /* MessageViewController.swift */; };
+		1256B9A028FE843A00599FD2 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1256B99E28FE843A00599FD2 /* MessageTableViewCell.swift */; };
+		1256B9A328FE9CD100599FD2 /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1256B9A228FE9CD100599FD2 /* MessageTableViewCell.xib */; };
+		1256B9A528FFC33100599FD2 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1256B9A428FFC33100599FD2 /* MessageModel.swift */; };
+		126DA58E28FD71ED0019CF53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126DA58D28FD71ED0019CF53 /* AppDelegate.swift */; };
+		126DA59028FD71ED0019CF53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126DA58F28FD71ED0019CF53 /* SceneDelegate.swift */; };
+		126DA59228FD71ED0019CF53 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126DA59128FD71ED0019CF53 /* ChatViewController.swift */; };
+		126DA59528FD71ED0019CF53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126DA59328FD71ED0019CF53 /* Main.storyboard */; };
+		126DA59A28FD71EF0019CF53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126DA59828FD71EF0019CF53 /* LaunchScreen.storyboard */; };
+		126DA5A428FD781D0019CF53 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126DA5A228FD781D0019CF53 /* ChatTableViewCell.swift */; };
+		126DA5A528FD781D0019CF53 /* ChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 126DA5A328FD781D0019CF53 /* ChatTableViewCell.xib */; };
+		70C9FDA9F3902952724FA2F8 /* Pods_aaratai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D008D195BD3EDD44D5B25D /* Pods_aaratai.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04C1E27DBF634DC4D3716A8E /* Pods-aaratai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aaratai.debug.xcconfig"; path = "Target Support Files/Pods-aaratai/Pods-aaratai.debug.xcconfig"; sourceTree = "<group>"; };
+		1221534328FD835A00C64199 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		1221534528FD83A300C64199 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		1221534628FD83A300C64199 /* SettingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingTableViewCell.xib; sourceTree = "<group>"; };
+		12285A8F28FFEDD2007F845C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1256B99A28FE6B8800599FD2 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		1256B99E28FE843A00599FD2 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		1256B9A228FE9CD100599FD2 /* MessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
+		1256B9A428FFC33100599FD2 /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		126DA58A28FD71ED0019CF53 /* aaratai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aaratai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		126DA58D28FD71ED0019CF53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		126DA58F28FD71ED0019CF53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		126DA59128FD71ED0019CF53 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		126DA59428FD71ED0019CF53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		126DA59928FD71EF0019CF53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		126DA59B28FD71EF0019CF53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		126DA5A228FD781D0019CF53 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		126DA5A328FD781D0019CF53 /* ChatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatTableViewCell.xib; sourceTree = "<group>"; };
+		23621D2FB6208F0080D13B6A /* Pods-aaratai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aaratai.release.xcconfig"; path = "Target Support Files/Pods-aaratai/Pods-aaratai.release.xcconfig"; sourceTree = "<group>"; };
+		86D008D195BD3EDD44D5B25D /* Pods_aaratai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aaratai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		126DA58728FD71ED0019CF53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70C9FDA9F3902952724FA2F8 /* Pods_aaratai.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1221534228FD82F000C64199 /* SettingView */ = {
+			isa = PBXGroup;
+			children = (
+				1221534328FD835A00C64199 /* SettingViewController.swift */,
+				1221534528FD83A300C64199 /* SettingTableViewCell.swift */,
+				1221534628FD83A300C64199 /* SettingTableViewCell.xib */,
+			);
+			path = SettingView;
+			sourceTree = "<group>";
+		};
+		126DA58128FD71ED0019CF53 = {
+			isa = PBXGroup;
+			children = (
+				126DA58C28FD71ED0019CF53 /* aaratai */,
+				126DA58B28FD71ED0019CF53 /* Products */,
+				F804236A8439413440F97FAB /* Pods */,
+				4B97F7A7F678EC184193BAC1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		126DA58B28FD71ED0019CF53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				126DA58A28FD71ED0019CF53 /* aaratai.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		126DA58C28FD71ED0019CF53 /* aaratai */ = {
+			isa = PBXGroup;
+			children = (
+				1221534228FD82F000C64199 /* SettingView */,
+				126DA5A128FD77F00019CF53 /* ChatView */,
+				126DA58D28FD71ED0019CF53 /* AppDelegate.swift */,
+				126DA58F28FD71ED0019CF53 /* SceneDelegate.swift */,
+				126DA59328FD71ED0019CF53 /* Main.storyboard */,
+				126DA59828FD71EF0019CF53 /* LaunchScreen.storyboard */,
+				126DA59B28FD71EF0019CF53 /* Info.plist */,
+				12285A8F28FFEDD2007F845C /* Assets.xcassets */,
+			);
+			path = aaratai;
+			sourceTree = "<group>";
+		};
+		126DA5A128FD77F00019CF53 /* ChatView */ = {
+			isa = PBXGroup;
+			children = (
+				126DA59128FD71ED0019CF53 /* ChatViewController.swift */,
+				126DA5A228FD781D0019CF53 /* ChatTableViewCell.swift */,
+				126DA5A328FD781D0019CF53 /* ChatTableViewCell.xib */,
+				1256B99A28FE6B8800599FD2 /* MessageViewController.swift */,
+				1256B99E28FE843A00599FD2 /* MessageTableViewCell.swift */,
+				1256B9A228FE9CD100599FD2 /* MessageTableViewCell.xib */,
+				1256B9A428FFC33100599FD2 /* MessageModel.swift */,
+			);
+			name = ChatView;
+			sourceTree = "<group>";
+		};
+		4B97F7A7F678EC184193BAC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86D008D195BD3EDD44D5B25D /* Pods_aaratai.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F804236A8439413440F97FAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04C1E27DBF634DC4D3716A8E /* Pods-aaratai.debug.xcconfig */,
+				23621D2FB6208F0080D13B6A /* Pods-aaratai.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		126DA58928FD71ED0019CF53 /* aaratai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 126DA59E28FD71EF0019CF53 /* Build configuration list for PBXNativeTarget "aaratai" */;
+			buildPhases = (
+				E3CDF6140B73BCC74B5B0F73 /* [CP] Check Pods Manifest.lock */,
+				126DA58628FD71ED0019CF53 /* Sources */,
+				126DA58728FD71ED0019CF53 /* Frameworks */,
+				126DA58828FD71ED0019CF53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aaratai;
+			productName = aaratai;
+			productReference = 126DA58A28FD71ED0019CF53 /* aaratai.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		126DA58228FD71ED0019CF53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					126DA58928FD71ED0019CF53 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 126DA58528FD71ED0019CF53 /* Build configuration list for PBXProject "aaratai" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 126DA58128FD71ED0019CF53;
+			productRefGroup = 126DA58B28FD71ED0019CF53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				126DA58928FD71ED0019CF53 /* aaratai */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		126DA58828FD71ED0019CF53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126DA59A28FD71EF0019CF53 /* LaunchScreen.storyboard in Resources */,
+				1256B9A328FE9CD100599FD2 /* MessageTableViewCell.xib in Resources */,
+				126DA5A528FD781D0019CF53 /* ChatTableViewCell.xib in Resources */,
+				1221534828FD83A300C64199 /* SettingTableViewCell.xib in Resources */,
+				12285A9028FFEDD2007F845C /* Assets.xcassets in Resources */,
+				126DA59528FD71ED0019CF53 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E3CDF6140B73BCC74B5B0F73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-aaratai-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		126DA58628FD71ED0019CF53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1221534728FD83A300C64199 /* SettingTableViewCell.swift in Sources */,
+				1221534428FD835A00C64199 /* SettingViewController.swift in Sources */,
+				126DA59228FD71ED0019CF53 /* ChatViewController.swift in Sources */,
+				1256B99B28FE6B8800599FD2 /* MessageViewController.swift in Sources */,
+				126DA5A428FD781D0019CF53 /* ChatTableViewCell.swift in Sources */,
+				1256B9A028FE843A00599FD2 /* MessageTableViewCell.swift in Sources */,
+				126DA58E28FD71ED0019CF53 /* AppDelegate.swift in Sources */,
+				1256B9A528FFC33100599FD2 /* MessageModel.swift in Sources */,
+				126DA59028FD71ED0019CF53 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		126DA59328FD71ED0019CF53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				126DA59428FD71ED0019CF53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		126DA59828FD71EF0019CF53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				126DA59928FD71EF0019CF53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		126DA59C28FD71EF0019CF53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		126DA59D28FD71EF0019CF53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		126DA59F28FD71EF0019CF53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04C1E27DBF634DC4D3716A8E /* Pods-aaratai.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4U4X47C36;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = aaratai/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZSGS.aaratai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		126DA5A028FD71EF0019CF53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23621D2FB6208F0080D13B6A /* Pods-aaratai.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4U4X47C36;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = aaratai/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZSGS.aaratai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		126DA58528FD71ED0019CF53 /* Build configuration list for PBXProject "aaratai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				126DA59C28FD71EF0019CF53 /* Debug */,
+				126DA59D28FD71EF0019CF53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		126DA59E28FD71EF0019CF53 /* Build configuration list for PBXNativeTarget "aaratai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				126DA59F28FD71EF0019CF53 /* Debug */,
+				126DA5A028FD71EF0019CF53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 126DA58228FD71ED0019CF53 /* Project object */;
+}

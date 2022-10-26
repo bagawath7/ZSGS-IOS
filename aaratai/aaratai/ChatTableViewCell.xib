@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="110" id="KGk-i7-Jjw" customClass="ChatTableViewCell" customModule="aaratai" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="362" height="110"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="362" height="110"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="FHV-xb-BSG">
+                        <rect key="frame" x="20" y="31" width="50" height="48.666666666666671"/>
+                        <color key="tintColor" red="0.34309840200000002" green="0.4005198479" blue="0.77258557080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="2YG-OK-MD0"/>
+                            <constraint firstAttribute="width" constant="50" id="JJI-kC-Y7g"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bagawath" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="82B-hF-Dsh">
+                        <rect key="frame" x="86" y="30" width="90.333333333333314" height="23"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hey how are you" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SK0-CY-pzz">
+                        <rect key="frame" x="86" y="60.666666666666664" width="119" height="19.333333333333336"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11.11PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SZm-Pf-LyD">
+                        <rect key="frame" x="291.66666666666669" y="30" width="58.333333333333314" height="20.333333333333329"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.050980392156862744" green="0.050980392156862744" blue="0.050980392156862744" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                <constraints>
+                    <constraint firstItem="82B-hF-Dsh" firstAttribute="top" secondItem="FHV-xb-BSG" secondAttribute="top" id="9Om-B7-U4v"/>
+                    <constraint firstItem="SK0-CY-pzz" firstAttribute="bottom" secondItem="FHV-xb-BSG" secondAttribute="bottom" id="I8A-v2-vxc"/>
+                    <constraint firstItem="SZm-Pf-LyD" firstAttribute="top" secondItem="82B-hF-Dsh" secondAttribute="top" id="dDb-JI-0DG"/>
+                    <constraint firstItem="FHV-xb-BSG" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="h78-WD-OFI"/>
+                    <constraint firstItem="SK0-CY-pzz" firstAttribute="leading" secondItem="FHV-xb-BSG" secondAttribute="trailing" constant="16" id="jnx-q0-CL6"/>
+                    <constraint firstItem="82B-hF-Dsh" firstAttribute="leading" secondItem="FHV-xb-BSG" secondAttribute="trailing" constant="16" id="uLb-Dq-KUK"/>
+                    <constraint firstItem="FHV-xb-BSG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="uis-pc-fBI"/>
+                    <constraint firstAttribute="trailing" secondItem="SZm-Pf-LyD" secondAttribute="trailing" constant="12" id="z6p-3o-cXw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="169.23076923076923" y="-2.8436018957345972"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="person.circle.fill" catalog="system" width="128" height="123"/>
+    </resources>
+</document>
