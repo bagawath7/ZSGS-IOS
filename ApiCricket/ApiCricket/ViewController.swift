@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         request.httpMethod = "GET"
         request.allHTTPHeaderFields = headers
         let session = URLSession.shared
-        let dataTask = session.dataTask(with: request as URLRequest, completionHandler: { (data, response, error) -> Void in
+        let dataTask = session.dataTask(with: request as URLRequest) { (data, response, error) -> Void in
             if (error != nil) {
                 failure(error!)
             } else {
@@ -54,7 +54,7 @@ class ViewController: UIViewController {
                     print("No data")
                 }
             }
-        })
+        }
         
         
         dataTask.resume()
@@ -111,12 +111,14 @@ class ViewController: UIViewController {
     func setupCollectionView(){
         
         let screenBounds=UIScreen.main.bounds
+        print(screenBounds)
         let width=screenBounds.width
         
         
         let flowLayout=UICollectionViewFlowLayout()
         flowLayout.itemSize=CGSize(width: width / 2 - 10, height: width / 2 - 10)
         flowLayout.minimumLineSpacing=15
+        
         
         
         collectionView=UICollectionView(frame: .zero,collectionViewLayout: flowLayout)
@@ -156,7 +158,7 @@ extension ViewController:UICollectionViewDelegate,UICollectionViewDataSource{
         let thisteam=teams[indexPath.row+1]
         
         
-        DispatchQueue.main.async {
+//        DispatchQueue.main.async {
             
             if let img = thisteam.imageId{
                 
@@ -176,7 +178,7 @@ extension ViewController:UICollectionViewDelegate,UICollectionViewDataSource{
             }
 //
             cell.teamName.text=thisteam.teamName
-        }
+//        }
         
         
         

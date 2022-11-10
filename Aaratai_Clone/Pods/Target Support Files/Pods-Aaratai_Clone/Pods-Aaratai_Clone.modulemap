@@ -1,6 +1,0 @@
-framework module Pods_Aaratai_Clone {
-  umbrella header "Pods-Aaratai_Clone-umbrella.h"
-
-  export *
-  module * { export * }
-}

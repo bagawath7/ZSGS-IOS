@@ -90,7 +90,7 @@ extension PeopleListViewController : UITableViewDelegate, UITableViewDataSource{
     }
 
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return " "
+        return peopleSection[section]
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -101,5 +101,6 @@ extension PeopleListViewController : UITableViewDelegate, UITableViewDataSource{
         return 100
     }
 
+    
     
 }

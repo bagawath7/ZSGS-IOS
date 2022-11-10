@@ -8,6 +8,7 @@
 import Foundation
 
 protocol MessageBusinessLogic{
+   func  fetch()
     
     
 }
@@ -18,10 +19,15 @@ class MessageIntractor{
     
     
     
+    
 }
 
 
 extension MessageIntractor : MessageBusinessLogic{
+    func fetch() {
+        self.presenter.attemptToAssembleGroupedMessages()
+    }
+    
    
     
    

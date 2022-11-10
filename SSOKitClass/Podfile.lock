@@ -1,0 +1,18 @@
+PODS:
+  - SSOKit (2.0.13):
+    - SSOKit/AppExtension (= 2.0.13)
+  - SSOKit/AppExtension (2.0.13)
+
+DEPENDENCIES:
+  - SSOKit (= 2.0.13)
+
+SPEC REPOS:
+  https://git.csez.zohocorpin.com/zoho/zohopodspecs.git:
+    - SSOKit
+
+SPEC CHECKSUMS:
+  SSOKit: b037ccb19c100163277732d7a4d7fb4f210b69be
+
+PODFILE CHECKSUM: a84699298b91de55243b57c6ff058ea4dd73be06
+
+COCOAPODS: 1.11.3

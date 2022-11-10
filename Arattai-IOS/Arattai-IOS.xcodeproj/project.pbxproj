@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		121A5F6829111D46007F9E96 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121A5F6729111D46007F9E96 /* ChatMessageCell.swift */; };
+		121A5F6A29111DA6007F9E96 /* MessageModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121A5F6929111DA6007F9E96 /* MessageModels.swift */; };
+		121A5F6C291132D9007F9E96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 121A5F6B291132D9007F9E96 /* Main.storyboard */; };
+		124C520D291240DB004B8A96 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124C520C291240DB004B8A96 /* Extensions.swift */; };
 		125B82152902935100604E9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B82142902935100604E9B /* AppDelegate.swift */; };
 		125B82172902935100604E9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B82162902935100604E9B /* SceneDelegate.swift */; };
-		125B821C2902935100604E9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 125B821A2902935100604E9B /* Main.storyboard */; };
 		125B821F2902935100604E9B /* Arattai_IOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 125B821D2902935100604E9B /* Arattai_IOS.xcdatamodeld */; };
 		125B82212902935300604E9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 125B82202902935300604E9B /* Assets.xcassets */; };
 		125B82242902935300604E9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 125B82222902935300604E9B /* LaunchScreen.storyboard */; };
@@ -26,16 +29,17 @@
 		125B82442908ECA400604E9B /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B82432908ECA400604E9B /* MessageViewController.swift */; };
 		125B82462908EE5900604E9B /* MessageIntractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B82452908EE5900604E9B /* MessageIntractor.swift */; };
 		12FD881C2908FDBC000E2922 /* MessagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FD881B2908FDBC000E2922 /* MessagePresenter.swift */; };
-		12FD882829091573000E2922 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FD882629091573000E2922 /* MessageTableViewCell.swift */; };
-		12FD882929091573000E2922 /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12FD882729091573000E2922 /* MessageTableViewCell.xib */; };
 		3DA3938ADEE6099870E45A7E /* Pods_Arattai_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF506142BC7E6B1A76EF6C1 /* Pods_Arattai_IOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		121A5F6729111D46007F9E96 /* ChatMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
+		121A5F6929111DA6007F9E96 /* MessageModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModels.swift; sourceTree = "<group>"; };
+		121A5F6B291132D9007F9E96 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		124C520C291240DB004B8A96 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = "../../Instagram-Clone/Instagram-Clone/Extensions.swift"; sourceTree = "<group>"; };
 		125B82112902935100604E9B /* Arattai-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arattai-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		125B82142902935100604E9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		125B82162902935100604E9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		125B821B2902935100604E9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		125B821E2902935100604E9B /* Arattai_IOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Arattai_IOS.xcdatamodel; sourceTree = "<group>"; };
 		125B82202902935300604E9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		125B82232902935300604E9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,8 +57,6 @@
 		125B82432908ECA400604E9B /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		125B82452908EE5900604E9B /* MessageIntractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageIntractor.swift; sourceTree = "<group>"; };
 		12FD881B2908FDBC000E2922 /* MessagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePresenter.swift; sourceTree = "<group>"; };
-		12FD882629091573000E2922 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
-		12FD882729091573000E2922 /* MessageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
 		4649A7C5294B46CAAF4FAF4F /* Pods-Arattai-IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arattai-IOS.debug.xcconfig"; path = "Target Support Files/Pods-Arattai-IOS/Pods-Arattai-IOS.debug.xcconfig"; sourceTree = "<group>"; };
 		9DF506142BC7E6B1A76EF6C1 /* Pods_Arattai_IOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arattai_IOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D81B16F8577623D13239DF /* Pods-Arattai-IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arattai-IOS.release.xcconfig"; path = "Target Support Files/Pods-Arattai-IOS/Pods-Arattai-IOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -98,9 +100,10 @@
 				125B82412902B81C00604E9B /* MainTabBar */,
 				125B82142902935100604E9B /* AppDelegate.swift */,
 				125B82162902935100604E9B /* SceneDelegate.swift */,
-				125B821A2902935100604E9B /* Main.storyboard */,
-				125B82202902935300604E9B /* Assets.xcassets */,
+				121A5F6B291132D9007F9E96 /* Main.storyboard */,
 				125B82222902935300604E9B /* LaunchScreen.storyboard */,
+				124C520C291240DB004B8A96 /* Extensions.swift */,
+				125B82202902935300604E9B /* Assets.xcassets */,
 				125B82252902935300604E9B /* Info.plist */,
 				125B821D2902935100604E9B /* Arattai_IOS.xcdatamodeld */,
 			);
@@ -145,6 +148,7 @@
 				125B82432908ECA400604E9B /* MessageViewController.swift */,
 				125B82452908EE5900604E9B /* MessageIntractor.swift */,
 				12FD881B2908FDBC000E2922 /* MessagePresenter.swift */,
+				121A5F6929111DA6007F9E96 /* MessageModels.swift */,
 				12FD882329091540000E2922 /* Others */,
 			);
 			path = Message;
@@ -153,8 +157,7 @@
 		12FD882329091540000E2922 /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				12FD882629091573000E2922 /* MessageTableViewCell.swift */,
-				12FD882729091573000E2922 /* MessageTableViewCell.xib */,
+				121A5F6729111D46007F9E96 /* ChatMessageCell.swift */,
 			);
 			name = Others;
 			sourceTree = "<group>";
@@ -237,9 +240,8 @@
 			files = (
 				125B82242902935300604E9B /* LaunchScreen.storyboard in Resources */,
 				125B82362902940A00604E9B /* ChatTableViewCell.xib in Resources */,
-				12FD882929091573000E2922 /* MessageTableViewCell.xib in Resources */,
 				125B82212902935300604E9B /* Assets.xcassets in Resources */,
-				125B821C2902935100604E9B /* Main.storyboard in Resources */,
+				121A5F6C291132D9007F9E96 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				125B82462908EE5900604E9B /* MessageIntractor.swift in Sources */,
+				124C520D291240DB004B8A96 /* Extensions.swift in Sources */,
 				125B821F2902935100604E9B /* Arattai_IOS.xcdatamodeld in Sources */,
+				121A5F6829111D46007F9E96 /* ChatMessageCell.swift in Sources */,
 				12FD881C2908FDBC000E2922 /* MessagePresenter.swift in Sources */,
 				125B82442908ECA400604E9B /* MessageViewController.swift in Sources */,
 				125B82152902935100604E9B /* AppDelegate.swift in Sources */,
@@ -285,10 +289,10 @@
 				125B823F2902B7D900604E9B /* MainTabBarPresentor.swift in Sources */,
 				125B8233290293EE00604E9B /* ChatsModel.swift in Sources */,
 				125B82402902B7D900604E9B /* MainTabBarModel.swift in Sources */,
+				121A5F6A29111DA6007F9E96 /* MessageModels.swift in Sources */,
 				125B82172902935100604E9B /* SceneDelegate.swift in Sources */,
 				125B82372902940A00604E9B /* ChatTableViewCell.swift in Sources */,
 				125B8231290293BB00604E9B /* ChatsViewController.swift in Sources */,
-				12FD882829091573000E2922 /* MessageTableViewCell.swift in Sources */,
 				125B8230290293BB00604E9B /* ChatsIntractor.swift in Sources */,
 				125B823E2902B7D900604E9B /* MainTabBarIntractor.swift in Sources */,
 			);
@@ -297,14 +301,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		125B821A2902935100604E9B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				125B821B2902935100604E9B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		125B82222902935300604E9B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

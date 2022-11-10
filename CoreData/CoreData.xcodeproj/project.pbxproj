@@ -13,9 +13,11 @@
 		12FD88652909413C000E2922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FD88632909413C000E2922 /* Main.storyboard */; };
 		12FD88672909413D000E2922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12FD88662909413D000E2922 /* Assets.xcassets */; };
 		12FD886A2909413D000E2922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FD88682909413D000E2922 /* LaunchScreen.storyboard */; };
+		4F47EA338C1CCCF10BCC67EC /* Pods_CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B8A30A3B9307CBE7A8FA222 /* Pods_CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B8A30A3B9307CBE7A8FA222 /* Pods_CoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12FD885A2909413C000E2922 /* CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12FD885D2909413C000E2922 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12FD885F2909413C000E2922 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		12FD88662909413D000E2922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12FD88692909413D000E2922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12FD886B2909413D000E2922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E40B27E8AEF91C7E793AD62 /* Pods-CoreData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreData.debug.xcconfig"; path = "Target Support Files/Pods-CoreData/Pods-CoreData.debug.xcconfig"; sourceTree = "<group>"; };
+		C6ED796B867AF9889BCC721B /* Pods-CoreData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreData.release.xcconfig"; path = "Target Support Files/Pods-CoreData/Pods-CoreData.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F47EA338C1CCCF10BCC67EC /* Pods_CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				12FD885C2909413C000E2922 /* CoreData */,
 				12FD885B2909413C000E2922 /* Products */,
+				3A0BA57548C7DD0DA9E2C04F /* Pods */,
+				F595E4B397831075023D6E63 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,24 @@
 			path = CoreData;
 			sourceTree = "<group>";
 		};
+		3A0BA57548C7DD0DA9E2C04F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E40B27E8AEF91C7E793AD62 /* Pods-CoreData.debug.xcconfig */,
+				C6ED796B867AF9889BCC721B /* Pods-CoreData.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F595E4B397831075023D6E63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B8A30A3B9307CBE7A8FA222 /* Pods_CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +99,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12FD886E2909413D000E2922 /* Build configuration list for PBXNativeTarget "CoreData" */;
 			buildPhases = (
+				0CA9C6CD64FABB642477B9CA /* [CP] Check Pods Manifest.lock */,
 				12FD88562909413C000E2922 /* Sources */,
 				12FD88572909413C000E2922 /* Frameworks */,
 				12FD88582909413C000E2922 /* Resources */,
@@ -132,6 +158,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CA9C6CD64FABB642477B9CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoreData-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		12FD88562909413C000E2922 /* Sources */ = {
@@ -282,6 +333,7 @@
 		};
 		12FD886F2909413D000E2922 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E40B27E8AEF91C7E793AD62 /* Pods-CoreData.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +362,7 @@
 		};
 		12FD88702909413D000E2922 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6ED796B867AF9889BCC721B /* Pods-CoreData.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
