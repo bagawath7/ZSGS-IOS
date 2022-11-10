@@ -1,9 +1,0 @@
-
-source 'https://git.csez.zohocorpin.com/zoho/zohopodspecs.git'
-
-target 'SSOKitClass' do
-  use_frameworks!
-
-  pod 'SSOKit', '2.0.13'
-
-end
